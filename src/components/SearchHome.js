@@ -67,7 +67,7 @@ export class SearchHome extends React.Component{
         <br/>
         <br/>
         <br/>
-        <button  onClick={this.getNextPage}  >Next Page</button>
+        <button className="button" onClick={this.getNextPage}  >Next Page</button>
         </h2> || this.state.error || <h6>Search Result</h6>}
         </div>
         </>);
